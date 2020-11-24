@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  background-color: #778ca3;
+}
+.preview {
+  background-color: #fff;
+}
+
+.preview img {
+  max-width: 100%;
+}
+
+textarea,
+.preview {
+  min-height: 200px;
 }
 
 .App-logo {
@@ -14,7 +27,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #778ca3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
